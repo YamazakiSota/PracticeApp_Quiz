@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Top View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="TopViewController" customModule="quiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJq-Az-agM">
+                                <rect key="frame" x="130" y="549" width="154.5" height="63"/>
+                                <state key="normal" image="start.png">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BUj-kM-nEE" kind="show" id="6hB-GR-1iy"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="問題として長寿祝いの呼び名が表示されます。その呼び名に対応する年齢を選択肢の中から選んでください。すべての問題に答え終わると、あなたの「長寿祝いの知識レベル」が表示されます。" translatesAutoresizingMaskIntoConstraints="NO" id="0UR-GE-O8M">
+                                <rect key="frame" x="60" y="299" width="294" height="150"/>
+                                <color key="backgroundColor" red="0.88812546502976186" green="0.9317809643388606" blue="0.77539809869260201" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="wBT-Tb-hwO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="長寿祝いクイズ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sL8-ZN-vPH">
+                                <rect key="frame" x="97.5" y="174" width="219.5" height="37"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="31"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="olW-jU-WC7"/>
+                        <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="olW-jU-WC7" firstAttribute="trailing" secondItem="0UR-GE-O8M" secondAttribute="trailing" constant="60" id="3NM-lY-5Sr"/>
+                            <constraint firstItem="olW-jU-WC7" firstAttribute="bottom" secondItem="WJq-Az-agM" secondAttribute="bottom" constant="250" id="CQG-es-puU"/>
+                            <constraint firstItem="sL8-ZN-vPH" firstAttribute="top" secondItem="olW-jU-WC7" secondAttribute="top" constant="130" id="HVB-x6-5oC"/>
+                            <constraint firstItem="WJq-Az-agM" firstAttribute="top" secondItem="0UR-GE-O8M" secondAttribute="bottom" constant="100" id="V4b-VO-a3h"/>
+                            <constraint firstItem="WJq-Az-agM" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Zco-2x-6D6"/>
+                            <constraint firstItem="0UR-GE-O8M" firstAttribute="leading" secondItem="olW-jU-WC7" secondAttribute="leading" constant="60" id="ig2-ud-zfO"/>
+                            <constraint firstItem="sL8-ZN-vPH" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="kFf-Ap-ULi"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="288.80000000000001" y="386.35682158920542"/>
+        </scene>
+        <!--Quiz View Controller-->
+        <scene sceneID="H7m-Go-mtN">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="BUj-kM-nEE" customClass="QuizViewController" customModule="quiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TLH-RG-UNz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kki-U3-jv0">
+                                <rect key="frame" x="144.5" y="384" width="125" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="choiceAnswerWithSender:" destination="BUj-kM-nEE" eventType="touchUpInside" id="paA-Ee-YIQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7F-Li-K3q">
+                                <rect key="frame" x="144.5" y="494" width="125" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="choiceAnswerWithSender:" destination="BUj-kM-nEE" eventType="touchUpInside" id="slJ-Tf-Ik2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRD-48-CKy">
+                                <rect key="frame" x="144.5" y="604" width="125" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="choiceAnswerWithSender:" destination="BUj-kM-nEE" eventType="touchUpInside" id="M7a-uN-z4s"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="『還暦』" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="LtN-I0-zAN">
+                                <rect key="frame" x="57" y="244" width="300" height="70"/>
+                                <color key="backgroundColor" red="0.88714796299999998" green="0.93362021449999999" blue="0.77554213999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="MGJ-ad-4J5"/>
+                                    <constraint firstAttribute="width" constant="300" id="mcr-9b-JMM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Gr-bL-apd">
+                                <rect key="frame" x="147" y="358" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="4NI-AQ-FK6"/>
+                                    <constraint firstAttribute="width" constant="120" id="UHX-kF-82p"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="G3T-7p-6kr"/>
+                        <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LtN-I0-zAN" firstAttribute="centerX" secondItem="TLH-RG-UNz" secondAttribute="centerX" id="4Mm-Ij-7qV"/>
+                            <constraint firstItem="3Gr-bL-apd" firstAttribute="centerY" secondItem="TLH-RG-UNz" secondAttribute="centerY" constant="-30" id="4XS-jD-2YB"/>
+                            <constraint firstItem="LtN-I0-zAN" firstAttribute="top" secondItem="G3T-7p-6kr" secondAttribute="top" constant="200" id="NV5-p4-vei"/>
+                            <constraint firstItem="kki-U3-jv0" firstAttribute="top" secondItem="LtN-I0-zAN" secondAttribute="bottom" constant="70" id="Qjc-kg-TJC"/>
+                            <constraint firstItem="n7F-Li-K3q" firstAttribute="top" secondItem="kki-U3-jv0" secondAttribute="bottom" constant="50" id="bY5-rX-PvZ"/>
+                            <constraint firstItem="3Gr-bL-apd" firstAttribute="centerX" secondItem="TLH-RG-UNz" secondAttribute="centerX" id="fah-vf-SmA"/>
+                            <constraint firstItem="n7F-Li-K3q" firstAttribute="centerX" secondItem="TLH-RG-UNz" secondAttribute="centerX" id="ieL-WL-oZK"/>
+                            <constraint firstItem="kki-U3-jv0" firstAttribute="centerX" secondItem="TLH-RG-UNz" secondAttribute="centerX" id="n2n-KN-eS3"/>
+                            <constraint firstItem="MRD-48-CKy" firstAttribute="centerX" secondItem="TLH-RG-UNz" secondAttribute="centerX" id="tT6-oT-f6q"/>
+                            <constraint firstItem="MRD-48-CKy" firstAttribute="top" secondItem="n7F-Li-K3q" secondAttribute="bottom" constant="50" id="vdC-CU-bJs"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="eUF-Bh-8M9"/>
+                    <connections>
+                        <outlet property="choiceButtons1" destination="kki-U3-jv0" id="h9T-rg-ovb"/>
+                        <outlet property="choiceButtons2" destination="n7F-Li-K3q" id="XDV-cF-KVS"/>
+                        <outlet property="choiceButtons3" destination="MRD-48-CKy" id="9eP-oH-shy"/>
+                        <outlet property="judgeImageView" destination="3Gr-bL-apd" id="p3U-8n-uY1"/>
+                        <outlet property="quizTextView" destination="LtN-I0-zAN" id="dPw-Tb-PaB"/>
+                        <segue destination="owP-hA-BJF" kind="presentation" identifier="toResultView" id="xvM-JA-bwI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wtn-0m-iER" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="936.23188405797111" y="385.04464285714283"/>
+        </scene>
+        <!--Result View Controller-->
+        <scene sceneID="Xls-aW-LT9">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="owP-hA-BJF" customClass="ResultViewController" customModule="quiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e0S-fw-p1e">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="97b-UG-l5g">
+                                <rect key="frame" x="100.5" y="514" width="213" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88714796299999998" green="0.93362021449999999" blue="0.77554213999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="タイトルへ戻る">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sc2-i2-Bpk" kind="unwind" unwindAction="backWithSegue:" id="Ecy-5e-81a"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="結果" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hta-Kb-34t">
+                                <rect key="frame" x="167" y="364" width="80.5" height="48"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="結果" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rT1-oF-jss">
+                                <rect key="frame" x="183.5" y="276.5" width="47" height="27.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oY0-o1-h9w"/>
+                        <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Hta-Kb-34t" firstAttribute="top" secondItem="rT1-oF-jss" secondAttribute="bottom" constant="60" id="U0E-hH-JgL"/>
+                            <constraint firstItem="rT1-oF-jss" firstAttribute="centerX" secondItem="e0S-fw-p1e" secondAttribute="centerX" id="YDJ-fu-LMP"/>
+                            <constraint firstItem="Hta-Kb-34t" firstAttribute="centerX" secondItem="e0S-fw-p1e" secondAttribute="centerX" id="fh0-O8-Trc"/>
+                            <constraint firstItem="Hta-Kb-34t" firstAttribute="centerY" secondItem="e0S-fw-p1e" secondAttribute="centerY" constant="-60" id="poV-sk-6EJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="rT1-oF-jss" id="dOe-ea-SwH"/>
+                        <outlet property="revel" destination="Hta-Kb-34t" id="1YS-my-UAu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QhB-CX-kcE" sceneMemberID="firstResponder"/>
+                <exit id="sc2-i2-Bpk" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1611.5942028985507" y="384.375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="start.png" width="148.32000732421875" height="60.479999542236328"/>
+    </resources>
+</document>

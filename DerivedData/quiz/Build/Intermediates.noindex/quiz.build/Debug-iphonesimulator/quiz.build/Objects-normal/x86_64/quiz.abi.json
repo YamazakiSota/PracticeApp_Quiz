@@ -1,0 +1,2475 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "quiz",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TopViewController",
+      "printedName": "TopViewController",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@quiz@objc(cs)TopViewController(im)viewDidLoad",
+          "mangledName": "$s4quiz17TopViewControllerC11viewDidLoadyyF",
+          "moduleName": "quiz",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "back",
+          "printedName": "back(segue:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIStoryboardSegue",
+              "printedName": "UIKit.UIStoryboardSegue",
+              "usr": "c:objc(cs)UIStoryboardSegue"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@quiz@objc(cs)TopViewController(im)backWithSegue:",
+          "mangledName": "$s4quiz17TopViewControllerC4back5segueySo17UIStoryboardSegueC_tF",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "IBAction",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TopViewController",
+              "printedName": "quiz.TopViewController",
+              "usr": "c:@M@quiz@objc(cs)TopViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@quiz@objc(cs)TopViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s4quiz17TopViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "quiz",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "quiz.TopViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TopViewController",
+                  "printedName": "quiz.TopViewController",
+                  "usr": "c:@M@quiz@objc(cs)TopViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@quiz@objc(cs)TopViewController(im)initWithCoder:",
+          "mangledName": "$s4quiz17TopViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "quiz",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@quiz@objc(cs)TopViewController",
+      "mangledName": "$s4quiz17TopViewControllerC",
+      "moduleName": "quiz",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "quiz",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppDelegate",
+      "printedName": "AppDelegate",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "window",
+          "printedName": "window",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIWindow?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIWindow",
+                  "printedName": "UIKit.UIWindow",
+                  "usr": "c:objc(cs)UIWindow"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@quiz@objc(cs)AppDelegate(py)window",
+          "mangledName": "$s4quiz11AppDelegateC6windowSo8UIWindowCSgvp",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "objc_name": "window",
+          "declAttributes": [
+            "HasInitialValue",
+            "ObjC",
+            "Custom",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIWindow?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIWindow",
+                      "printedName": "UIKit.UIWindow",
+                      "usr": "c:objc(cs)UIWindow"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@quiz@objc(cs)AppDelegate(im)window",
+              "mangledName": "$s4quiz11AppDelegateC6windowSo8UIWindowCSgvg",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "window",
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIWindow?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIWindow",
+                      "printedName": "UIKit.UIWindow",
+                      "usr": "c:objc(cs)UIWindow"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@quiz@objc(cs)AppDelegate(im)setWindow:",
+              "mangledName": "$s4quiz11AppDelegateC6windowSo8UIWindowCSgvs",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "setWindow:",
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz11AppDelegateC6windowSo8UIWindowCSgvM",
+              "mangledName": "$s4quiz11AppDelegateC6windowSo8UIWindowCSgvM",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:didFinishLaunchingWithOptions:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "LaunchOptionsKey",
+                      "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                      "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@quiz@objc(cs)AppDelegate(im)application:didFinishLaunchingWithOptions:",
+          "mangledName": "$s4quiz11AppDelegateC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0j6LaunchI3KeyaypGSgtF",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "objc_name": "application:didFinishLaunchingWithOptions:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "applicationWillResignActive",
+          "printedName": "applicationWillResignActive(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@quiz@objc(cs)AppDelegate(im)applicationWillResignActive:",
+          "mangledName": "$s4quiz11AppDelegateC27applicationWillResignActiveyySo13UIApplicationCF",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "objc_name": "applicationWillResignActive:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "applicationDidEnterBackground",
+          "printedName": "applicationDidEnterBackground(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@quiz@objc(cs)AppDelegate(im)applicationDidEnterBackground:",
+          "mangledName": "$s4quiz11AppDelegateC29applicationDidEnterBackgroundyySo13UIApplicationCF",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "objc_name": "applicationDidEnterBackground:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "applicationWillEnterForeground",
+          "printedName": "applicationWillEnterForeground(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@quiz@objc(cs)AppDelegate(im)applicationWillEnterForeground:",
+          "mangledName": "$s4quiz11AppDelegateC30applicationWillEnterForegroundyySo13UIApplicationCF",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "objc_name": "applicationWillEnterForeground:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "applicationDidBecomeActive",
+          "printedName": "applicationDidBecomeActive(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@quiz@objc(cs)AppDelegate(im)applicationDidBecomeActive:",
+          "mangledName": "$s4quiz11AppDelegateC26applicationDidBecomeActiveyySo13UIApplicationCF",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "objc_name": "applicationDidBecomeActive:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "applicationWillTerminate",
+          "printedName": "applicationWillTerminate(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@quiz@objc(cs)AppDelegate(im)applicationWillTerminate:",
+          "mangledName": "$s4quiz11AppDelegateC24applicationWillTerminateyySo13UIApplicationCF",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "objc_name": "applicationWillTerminate:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppDelegate",
+              "printedName": "quiz.AppDelegate",
+              "usr": "c:@M@quiz@objc(cs)AppDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@quiz@objc(cs)AppDelegate(im)init",
+          "mangledName": "$s4quiz11AppDelegateCACycfc",
+          "moduleName": "quiz",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@quiz@objc(cs)AppDelegate",
+      "mangledName": "$s4quiz11AppDelegateC",
+      "moduleName": "quiz",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "UIApplicationMain",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIResponder",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "quiz",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "QuizViewController",
+      "printedName": "QuizViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "number",
+          "printedName": "number",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:4quiz18QuizViewControllerC6numberSivp",
+          "mangledName": "$s4quiz18QuizViewControllerC6numberSivp",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz18QuizViewControllerC6numberSivg",
+              "mangledName": "$s4quiz18QuizViewControllerC6numberSivg",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz18QuizViewControllerC6numberSivs",
+              "mangledName": "$s4quiz18QuizViewControllerC6numberSivs",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz18QuizViewControllerC6numberSivM",
+              "mangledName": "$s4quiz18QuizViewControllerC6numberSivM",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "quizArray",
+          "printedName": "quizArray",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[[Any]]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Any]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:4quiz18QuizViewControllerC0A5ArraySaySayypGGvp",
+          "mangledName": "$s4quiz18QuizViewControllerC0A5ArraySaySayypGGvp",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[[Any]]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Array",
+                      "printedName": "[Any]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "ProtocolComposition",
+                          "printedName": "Any"
+                        }
+                      ],
+                      "usr": "s:Sa"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz18QuizViewControllerC0A5ArraySaySayypGGvg",
+              "mangledName": "$s4quiz18QuizViewControllerC0A5ArraySaySayypGGvg",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[[Any]]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Array",
+                      "printedName": "[Any]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "ProtocolComposition",
+                          "printedName": "Any"
+                        }
+                      ],
+                      "usr": "s:Sa"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz18QuizViewControllerC0A5ArraySaySayypGGvs",
+              "mangledName": "$s4quiz18QuizViewControllerC0A5ArraySaySayypGGvs",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz18QuizViewControllerC0A5ArraySaySayypGGvM",
+              "mangledName": "$s4quiz18QuizViewControllerC0A5ArraySaySayypGGvM",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "correctAnswer",
+          "printedName": "correctAnswer",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:4quiz18QuizViewControllerC13correctAnswerSivp",
+          "mangledName": "$s4quiz18QuizViewControllerC13correctAnswerSivp",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz18QuizViewControllerC13correctAnswerSivg",
+              "mangledName": "$s4quiz18QuizViewControllerC13correctAnswerSivg",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz18QuizViewControllerC13correctAnswerSivs",
+              "mangledName": "$s4quiz18QuizViewControllerC13correctAnswerSivs",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz18QuizViewControllerC13correctAnswerSivM",
+              "mangledName": "$s4quiz18QuizViewControllerC13correctAnswerSivM",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "quizTextView",
+          "printedName": "quizTextView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "UIKit.UITextView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UITextView",
+                  "printedName": "UIKit.UITextView",
+                  "usr": "c:objc(cs)UITextView"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@quiz@objc(cs)QuizViewController(py)quizTextView",
+          "mangledName": "$s4quiz18QuizViewControllerC0a4TextC0So06UITextC0CSgvp",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "IBOutlet",
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITextView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITextView",
+                      "printedName": "UIKit.UITextView",
+                      "usr": "c:objc(cs)UITextView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@quiz@objc(cs)QuizViewController(im)quizTextView",
+              "mangledName": "$s4quiz18QuizViewControllerC0a4TextC0So06UITextC0CSgvg",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITextView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITextView",
+                      "printedName": "UIKit.UITextView",
+                      "usr": "c:objc(cs)UITextView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@quiz@objc(cs)QuizViewController(im)setQuizTextView:",
+              "mangledName": "$s4quiz18QuizViewControllerC0a4TextC0So06UITextC0CSgvs",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz18QuizViewControllerC0a4TextC0So06UITextC0CSgvM",
+              "mangledName": "$s4quiz18QuizViewControllerC0a4TextC0So06UITextC0CSgvM",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "choiceButtons1",
+          "printedName": "choiceButtons1",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "UIKit.UIButton?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIButton",
+                  "printedName": "UIKit.UIButton",
+                  "usr": "c:objc(cs)UIButton"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@quiz@objc(cs)QuizViewController(py)choiceButtons1",
+          "mangledName": "$s4quiz18QuizViewControllerC14choiceButtons1So8UIButtonCSgvp",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "IBOutlet",
+            "RawDocComment",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIButton?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIButton",
+                      "printedName": "UIKit.UIButton",
+                      "usr": "c:objc(cs)UIButton"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@quiz@objc(cs)QuizViewController(im)choiceButtons1",
+              "mangledName": "$s4quiz18QuizViewControllerC14choiceButtons1So8UIButtonCSgvg",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIButton?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIButton",
+                      "printedName": "UIKit.UIButton",
+                      "usr": "c:objc(cs)UIButton"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@quiz@objc(cs)QuizViewController(im)setChoiceButtons1:",
+              "mangledName": "$s4quiz18QuizViewControllerC14choiceButtons1So8UIButtonCSgvs",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz18QuizViewControllerC14choiceButtons1So8UIButtonCSgvM",
+              "mangledName": "$s4quiz18QuizViewControllerC14choiceButtons1So8UIButtonCSgvM",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "choiceButtons2",
+          "printedName": "choiceButtons2",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "UIKit.UIButton?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIButton",
+                  "printedName": "UIKit.UIButton",
+                  "usr": "c:objc(cs)UIButton"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@quiz@objc(cs)QuizViewController(py)choiceButtons2",
+          "mangledName": "$s4quiz18QuizViewControllerC14choiceButtons2So8UIButtonCSgvp",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 5,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIButton?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIButton",
+                      "printedName": "UIKit.UIButton",
+                      "usr": "c:objc(cs)UIButton"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@quiz@objc(cs)QuizViewController(im)choiceButtons2",
+              "mangledName": "$s4quiz18QuizViewControllerC14choiceButtons2So8UIButtonCSgvg",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIButton?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIButton",
+                      "printedName": "UIKit.UIButton",
+                      "usr": "c:objc(cs)UIButton"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@quiz@objc(cs)QuizViewController(im)setChoiceButtons2:",
+              "mangledName": "$s4quiz18QuizViewControllerC14choiceButtons2So8UIButtonCSgvs",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz18QuizViewControllerC14choiceButtons2So8UIButtonCSgvM",
+              "mangledName": "$s4quiz18QuizViewControllerC14choiceButtons2So8UIButtonCSgvM",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "choiceButtons3",
+          "printedName": "choiceButtons3",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "UIKit.UIButton?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIButton",
+                  "printedName": "UIKit.UIButton",
+                  "usr": "c:objc(cs)UIButton"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@quiz@objc(cs)QuizViewController(py)choiceButtons3",
+          "mangledName": "$s4quiz18QuizViewControllerC14choiceButtons3So8UIButtonCSgvp",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 6,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIButton?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIButton",
+                      "printedName": "UIKit.UIButton",
+                      "usr": "c:objc(cs)UIButton"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@quiz@objc(cs)QuizViewController(im)choiceButtons3",
+              "mangledName": "$s4quiz18QuizViewControllerC14choiceButtons3So8UIButtonCSgvg",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIButton?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIButton",
+                      "printedName": "UIKit.UIButton",
+                      "usr": "c:objc(cs)UIButton"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@quiz@objc(cs)QuizViewController(im)setChoiceButtons3:",
+              "mangledName": "$s4quiz18QuizViewControllerC14choiceButtons3So8UIButtonCSgvs",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz18QuizViewControllerC14choiceButtons3So8UIButtonCSgvM",
+              "mangledName": "$s4quiz18QuizViewControllerC14choiceButtons3So8UIButtonCSgvM",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "judgeImageView",
+          "printedName": "judgeImageView",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UIImageView?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@quiz@objc(cs)QuizViewController(py)judgeImageView",
+          "mangledName": "$s4quiz18QuizViewControllerC010judgeImageC0So07UIImageC0CSgvp",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "ReferenceOwnership",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 7,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIImageView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImageView",
+                      "printedName": "UIKit.UIImageView",
+                      "usr": "c:objc(cs)UIImageView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@quiz@objc(cs)QuizViewController(im)judgeImageView",
+              "mangledName": "$s4quiz18QuizViewControllerC010judgeImageC0So07UIImageC0CSgvg",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIImageView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImageView",
+                      "printedName": "UIKit.UIImageView",
+                      "usr": "c:objc(cs)UIImageView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@quiz@objc(cs)QuizViewController(im)setJudgeImageView:",
+              "mangledName": "$s4quiz18QuizViewControllerC010judgeImageC0So07UIImageC0CSgvs",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz18QuizViewControllerC010judgeImageC0So07UIImageC0CSgvM",
+              "mangledName": "$s4quiz18QuizViewControllerC010judgeImageC0So07UIImageC0CSgvM",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@quiz@objc(cs)QuizViewController(im)viewDidLoad",
+          "mangledName": "$s4quiz18QuizViewControllerC11viewDidLoadyyF",
+          "moduleName": "quiz",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "choiceAnswer",
+          "printedName": "choiceAnswer(sender:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIButton",
+              "printedName": "UIKit.UIButton",
+              "usr": "c:objc(cs)UIButton"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@quiz@objc(cs)QuizViewController(im)choiceAnswerWithSender:",
+          "mangledName": "$s4quiz18QuizViewControllerC12choiceAnswer6senderySo8UIButtonC_tF",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "IBAction",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "choiceQuiz",
+          "printedName": "choiceQuiz()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:4quiz18QuizViewControllerC06choiceB0yyF",
+          "mangledName": "$s4quiz18QuizViewControllerC06choiceB0yyF",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "performSegueToResult",
+          "printedName": "performSegueToResult()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:4quiz18QuizViewControllerC20performSegueToResultyyF",
+          "mangledName": "$s4quiz18QuizViewControllerC20performSegueToResultyyF",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "prepare",
+          "printedName": "prepare(for:sender:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIStoryboardSegue",
+              "printedName": "UIKit.UIStoryboardSegue",
+              "usr": "c:objc(cs)UIStoryboardSegue"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Any?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@quiz@objc(cs)QuizViewController(im)prepareForSegue:sender:",
+          "mangledName": "$s4quiz18QuizViewControllerC7prepare3for6senderySo17UIStoryboardSegueC_ypSgtF",
+          "moduleName": "quiz",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "prepareForSegue:sender:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "QuizViewController",
+              "printedName": "quiz.QuizViewController",
+              "usr": "c:@M@quiz@objc(cs)QuizViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@quiz@objc(cs)QuizViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s4quiz18QuizViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "quiz",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "quiz.QuizViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "QuizViewController",
+                  "printedName": "quiz.QuizViewController",
+                  "usr": "c:@M@quiz@objc(cs)QuizViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@quiz@objc(cs)QuizViewController(im)initWithCoder:",
+          "mangledName": "$s4quiz18QuizViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "quiz",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@quiz@objc(cs)QuizViewController",
+      "mangledName": "$s4quiz18QuizViewControllerC",
+      "moduleName": "quiz",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "quiz",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ResultViewController",
+      "printedName": "ResultViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "correctAnswer",
+          "printedName": "correctAnswer",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:4quiz20ResultViewControllerC13correctAnswerSivp",
+          "mangledName": "$s4quiz20ResultViewControllerC13correctAnswerSivp",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz20ResultViewControllerC13correctAnswerSivg",
+              "mangledName": "$s4quiz20ResultViewControllerC13correctAnswerSivg",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz20ResultViewControllerC13correctAnswerSivs",
+              "mangledName": "$s4quiz20ResultViewControllerC13correctAnswerSivs",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz20ResultViewControllerC13correctAnswerSivM",
+              "mangledName": "$s4quiz20ResultViewControllerC13correctAnswerSivM",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "resultLabel",
+          "printedName": "resultLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "UIKit.UILabel?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UILabel",
+                  "printedName": "UIKit.UILabel",
+                  "usr": "c:objc(cs)UILabel"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@quiz@objc(cs)ResultViewController(py)resultLabel",
+          "mangledName": "$s4quiz20ResultViewControllerC11resultLabelSo7UILabelCSgvp",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@quiz@objc(cs)ResultViewController(im)resultLabel",
+              "mangledName": "$s4quiz20ResultViewControllerC11resultLabelSo7UILabelCSgvg",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@quiz@objc(cs)ResultViewController(im)setResultLabel:",
+              "mangledName": "$s4quiz20ResultViewControllerC11resultLabelSo7UILabelCSgvs",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz20ResultViewControllerC11resultLabelSo7UILabelCSgvM",
+              "mangledName": "$s4quiz20ResultViewControllerC11resultLabelSo7UILabelCSgvM",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "revel",
+          "printedName": "revel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "UIKit.UILabel?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UILabel",
+                  "printedName": "UIKit.UILabel",
+                  "usr": "c:objc(cs)UILabel"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@quiz@objc(cs)ResultViewController(py)revel",
+          "mangledName": "$s4quiz20ResultViewControllerC5revelSo7UILabelCSgvp",
+          "moduleName": "quiz",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@quiz@objc(cs)ResultViewController(im)revel",
+              "mangledName": "$s4quiz20ResultViewControllerC5revelSo7UILabelCSgvg",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@quiz@objc(cs)ResultViewController(im)setRevel:",
+              "mangledName": "$s4quiz20ResultViewControllerC5revelSo7UILabelCSgvs",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:4quiz20ResultViewControllerC5revelSo7UILabelCSgvM",
+              "mangledName": "$s4quiz20ResultViewControllerC5revelSo7UILabelCSgvM",
+              "moduleName": "quiz",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@quiz@objc(cs)ResultViewController(im)viewDidLoad",
+          "mangledName": "$s4quiz20ResultViewControllerC11viewDidLoadyyF",
+          "moduleName": "quiz",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ResultViewController",
+              "printedName": "quiz.ResultViewController",
+              "usr": "c:@M@quiz@objc(cs)ResultViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@quiz@objc(cs)ResultViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s4quiz20ResultViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "quiz",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "quiz.ResultViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ResultViewController",
+                  "printedName": "quiz.ResultViewController",
+                  "usr": "c:@M@quiz@objc(cs)ResultViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@quiz@objc(cs)ResultViewController(im)initWithCoder:",
+          "mangledName": "$s4quiz20ResultViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "quiz",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@quiz@objc(cs)ResultViewController",
+      "mangledName": "$s4quiz20ResultViewControllerC",
+      "moduleName": "quiz",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

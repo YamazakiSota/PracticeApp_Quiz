@@ -1,0 +1,59 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "e939f278de05a2aeaa55e6b33e4251bd7bccdbac30cf80420d36818adee215f2"
+    }
+  ],
+  "containerPath" : "/Users/yamazakisota/Library/Mobile Documents/com~apple~CloudDocs/App/Quiz/quiz.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/yamazakisota/Library/Mobile Documents/com~apple~CloudDocs/App/Quiz/DerivedData/quiz/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/yamazakisota/Library/Mobile Documents/com~apple~CloudDocs/App/Quiz/DerivedData/quiz/Index/Build/Products",
+      "derivedDataPath" : "/Users/yamazakisota/Library/Mobile Documents/com~apple~CloudDocs/App/Quiz/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/yamazakisota/Library/Mobile Documents/com~apple~CloudDocs/App/Quiz/DerivedData/quiz/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/yamazakisota/Library/Mobile Documents/com~apple~CloudDocs/App/Quiz/DerivedData/quiz/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/yamazakisota/Library/Mobile Documents/com~apple~CloudDocs/App/Quiz/DerivedData/quiz/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/yamazakisota/Library/Mobile Documents/com~apple~CloudDocs/App/Quiz/DerivedData/quiz/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

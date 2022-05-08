@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "503e5dc3f0ffecdc8c72fde491dedd3303ed2e19cbbf8a88e9b5813cf255e411"
+build_start_time: [1651154892, 159137964]
+build_end_time: [1651154893, 312422990]
+inputs:
+  "/Users/yamazakisota/Library/Mobile Documents/com~apple~CloudDocs/App/Quiz/quiz/AppDelegate.swift": [1544430385, 0]
+  "/Users/yamazakisota/Library/Mobile Documents/com~apple~CloudDocs/App/Quiz/quiz/QuizViewController.swift": [1651154891, 692243099]
+  "/Users/yamazakisota/Library/Mobile Documents/com~apple~CloudDocs/App/Quiz/quiz/ResultViewController.swift": [1651125572, 236207962]
+  "/Users/yamazakisota/Library/Mobile Documents/com~apple~CloudDocs/App/Quiz/quiz/TopViewController.swift": [1559647749, 0]
