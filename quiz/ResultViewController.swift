@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+
 class ResultViewController: UIViewController {
     var correctAnswer:Int = 0
     @IBOutlet var resultLabel: UILabel!
