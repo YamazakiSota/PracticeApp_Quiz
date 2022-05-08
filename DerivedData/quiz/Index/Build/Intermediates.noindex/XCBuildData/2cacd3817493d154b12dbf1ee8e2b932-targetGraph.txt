@@ -1,3 +1,0 @@
-Target dependency graph (2 targets)
-quiz in quiz, no dependencies
-quiz in quiz, no dependencies
